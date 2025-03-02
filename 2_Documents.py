@@ -27,4 +27,4 @@ st.session_state['documents']['passport'] = st.file_uploader("Upload Passport", 
 st.session_state['documents']['work_permit'] = st.file_uploader("Upload Work Permit", type=["jpg", "jpeg", "png", "pdf"])
 st.session_state['documents']['visa'] = st.file_uploader("Upload Visa", type=["jpg", "jpeg", "png", "pdf"])
 
-st.page_link("pages/3_Verification.py", label="Continue to Verification", icon="✅")
+st.page_link("3_Verification.py", label="Continue to Verification", icon="✅")
