@@ -31,4 +31,4 @@ with st.form("registration_form"):
 
     submitted = st.form_submit_button("Continue to Document Upload")
     if submitted:
-        st.page_link("pages/2_Documents.py", label="Continue to Document Upload", icon="📂")
+        st.page_link("2_Documents.py", label="Continue to Document Upload", icon="📂")
