@@ -10,6 +10,8 @@ Original file is located at
 import streamlit as st
 
 st.set_page_config(page_title="User Profile", layout="wide")
+st.title("User Profile")
+st.write("View Your Profile")
 
 st.markdown("<h1 style='text-align: center;'>User Profile</h1>", unsafe_allow_html=True)
 

@@ -11,6 +11,8 @@ import streamlit as st
 import time
 
 st.set_page_config(page_title="Verification Process", layout="wide")
+st.title("Verification")
+st.write("Verification in Process")
 
 if 'verification_status' not in st.session_state:
     st.session_state['verification_status'] = 'pending'
@@ -27,4 +29,4 @@ for i in range(100):
 st.session_state['verification_status'] = 'approved'
 st.success("Verification completed!")
 
-st.page_link("4_Profile.py", label="View Your Profile", icon="👤")
+st.page_link("pages/4_Profile.py", label="View Your Profile", icon="👤")

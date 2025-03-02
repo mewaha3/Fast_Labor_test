@@ -9,7 +9,10 @@ Original file is located at
 
 import streamlit as st
 
+
 st.set_page_config(page_title="User Registration", layout="wide")
+st.title("User Registration")
+st.write("Fill in your details to register.")
 
 if 'user_data' not in st.session_state:
     st.session_state['user_data'] = {
@@ -31,4 +34,4 @@ with st.form("registration_form"):
 
     submitted = st.form_submit_button("Continue to Document Upload")
     if submitted:
-        st.page_link("2_Documents.py", label="Continue to Document Upload", icon="📂")
+        st.page_link("pages/2_Documents.py", label="Continue to Document Upload", icon="📂")
