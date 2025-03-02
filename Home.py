@@ -14,5 +14,5 @@ st.sidebar.page_link("pages/5_Findjob.py", label="👤 Find Job")
 st.sidebar.page_link("pages/6_Postjob.py", label="👤 Post Job")
 st.sidebar.page_link("pages/7_Matchjob.py", label="👤 Payment")
 # Main content for Home page
-st.markdown("<h1 style='text-align: center;'>Welcome to Registration System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Fast Labor Near you</h1>", unsafe_allow_html=True)
 st.write("Use the sidebar to navigate through the registration process.")
